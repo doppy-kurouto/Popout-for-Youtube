@@ -22,30 +22,3 @@ chrome.contextMenus.onClicked.addListener(func1);
 
       });
   }
-
-/*
-width+16, height+39　[don't forget reload]
-1280, 720 -> 1296, 759
-854, 480 -> 870, 519
-640, 360 -> 656, 399
-426, 240 -> 442, 279
-
-auto play
-      var joinUrl = 'https://www.youtube.com/embed/'+(cutOut)+'?autoplay=1';
-
-play list
-      var cutOut = url.substr(49,34);
-      var joinUrl = 'https://www.youtube.com/embed/?list='+(cutOut);
-
-Chat Popout
-      var joinChatUrl = 'https://www.youtube.com/live_chat?v='+(cutOut);
-      window.open((joinChatUrl), null, 'top=300,left=500,width=600,height=800');
-
-thumbnail
-      var joinChatUrl = 'http://img.youtube.com/vi/'+(cutOut)+'/maxresdefault.jpg';
-      window.open((joinChatUrl), null, 'top=300,left=500,width=1296,height=759');
-
-xvideos
-      var cutOut = url.substr(29,37);
-      var joinUrl = 'https://www.xvideos.com/embedframe/'+(cutOut);
-*/

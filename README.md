@@ -90,3 +90,6 @@ Twitchの動画ID
 xvideos  
       var cutOut = url.substr(29,37);  
       var joinUrl = 'https://www.xvideos.com/embedframe/'+(cutOut);  
+
+パラメーターについて  
+https://developers.google.com/youtube/player_parameters?hl=ja

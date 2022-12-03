@@ -4,7 +4,11 @@ Youtuberの動画や配信をブラウザのウィンドウ外に放り出すChr
 同様の拡張機能は多機能  
 
 ## ファイル説明
-
+README.md - 本ファイル  
+event.js - プログラム本体  
+icon.png - アイコン画像  
+manifest.json - 設定ファイル  
+sample.png - 実際のサンプル画面  
 ## インストール
 
 ## 使い方

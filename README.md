@@ -63,24 +63,24 @@ Windows10, デフォルトスキンの場合、width+16, height+39となる。
 | 640x360 | 656x399 |
 | 426x240 | 442x279 |
 
-YoutubeのライブID　※動画も兼用  
+**YoutubeのライブID　※動画も兼用**  
       var cutOut = url.substr(32,11);  
       var joinUrl = 'https://www.youtube.com/embed/'+(cutOut)  
 
-Youtubeのチャット  
+**Youtubeのチャット**  
       var joinUrl = 'https://www.youtube.com/live_chat?v='+(cutOut)  
 
-チャットのサイズ  
+**チャットのサイズ**  
       window.open((joinChatUrl), null, 'top=300,left=500,width=500,height=900'  
 
-auto play  
+**Youtube 自動再生ON**  
       var joinUrl = 'https://www.youtube.com/embed/'+(cutOut)+'?autoplay=1';  
 
-play list  
+**Youtube プレイリスト**  
       var cutOut = url.substr(49,34);  
       var joinUrl = 'https://www.youtube.com/embed/?list='+(cutOut);  
 
-thumbnail  
+**Youtube サムネイル画像**  
       var joinChatUrl = 'http://img.youtube.com/vi/'+(cutOut)+'/maxresdefault.jpg';  
       window.open((joinChatUrl), null, 'top=300,left=500,width=1296,height=759');  
 
@@ -88,16 +88,16 @@ TwitchのライブID
       var cutOut = url.substr(22,64);  
       var joinChatUrl = 'https://player.twitch.tv/?channel='+(cutOut)+'&enableExtensions=true&parent=twitch.tv'  
 
-Twitchのチャット  
+**Twitchのチャット**  
       var joinChatUrl = 'https://www.twitch.tv/popout/'+(cutOut)+'/chat?popout='  
 
-Twitchの動画ID  
+**Twitchの動画**  
       var cutOut = url.substr(29,10);  
       var joinChatUrl = 'https://player.twitch.tv/?video='+(cutOut)+'&enableExtensions=true&parent=twitch.tv'  
 
-xvideos  
+**xvideos**  
       var cutOut = url.substr(29,37);  
       var joinUrl = 'https://www.xvideos.com/embedframe/'+(cutOut);  
 
-パラメーターについて  
+**パラメーターについて**  
 https://developers.google.com/youtube/player_parameters?hl=ja

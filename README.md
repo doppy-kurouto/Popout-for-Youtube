@@ -64,7 +64,7 @@ Windows10, デフォルトスキンの場合、width+16, height+39となる。
 | 426x240 | 442x279 |
 
 **YoutubeのライブID　※動画も兼用**  
-'      var cutOut = url.substr(32,11);'  
+'''      var cutOut = url.substr(32,11);'''  
       var joinUrl = 'https://www.youtube.com/embed/'+(cutOut)  
 
 **Youtubeのチャット**  
